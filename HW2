@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T03:59:45.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="lxtl_RTAwahWXRi_Nd6i" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T04:00:03.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="RXFdQqWW7VcvI7214rIf" version="15.4.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="9.3">
     <mxGraphModel dx="1715" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -241,7 +241,7 @@
           <mxGeometry x="75" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-88" value="Assumptions:&amp;nbsp;&lt;br&gt;1. An EMPLOYEE can manages multiple departments, and an DEPARTMENT must be managed by an EMPLOYEE.&lt;br&gt;2. All projectes must be worked on by some ENPLOYEEs, and each EMPLOYEE can work on multiple projects.&lt;br&gt;3. Not all EMPLOYEEs are supervised by someone, for example, a supervisor is supervised by nobody. &lt;br&gt;&amp;nbsp; &amp;nbsp; But all supervised EMPLOYEEs are supervised by one person at a time.&lt;br&gt;4. A project must belong to a department. A department can have multiple projects." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="580" width="640" height="90" as="geometry" />
+          <mxGeometry x="295" y="505" width="640" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-97" value="LOCATES_AT" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="100" y="495" width="120" height="40" as="geometry" />
