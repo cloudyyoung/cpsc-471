@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T02:26:23.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="ZaspvV-QxaAZSVZsVJGb" version="15.4.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-09T02:27:52.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="ZXYHA6t8k7DJI-1I53F3" version="15.4.3" type="github" pages="5">
   <diagram id="x-cRhcWid_0Wkg4_lkd0" name="5.11">
     <mxGraphModel dx="1888" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -232,24 +232,14 @@
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;shape=link;" parent="1" source="qVKmlcQLdKTgwYBnQ0Ye-78" target="qVKmlcQLdKTgwYBnQ0Ye-3" edge="1">
+        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-80" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;shape=link;" parent="1" source="qVKmlcQLdKTgwYBnQ0Ye-78" target="qVKmlcQLdKTgwYBnQ0Ye-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-93" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qVKmlcQLdKTgwYBnQ0Ye-80" vertex="1" connectable="0">
-          <mxGeometry x="0.2547" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-78" value="BELONGS_TO" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="290" y="375" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="qVKmlcQLdKTgwYBnQ0Ye-2" target="qVKmlcQLdKTgwYBnQ0Ye-78" edge="1">
+        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-79" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="qVKmlcQLdKTgwYBnQ0Ye-2" target="qVKmlcQLdKTgwYBnQ0Ye-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-94" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qVKmlcQLdKTgwYBnQ0Ye-79" vertex="1" connectable="0">
-          <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-84" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="425" y="210" width="235" height="150" as="geometry" />
@@ -275,8 +265,8 @@
         <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-76" value="Plocation" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="qVKmlcQLdKTgwYBnQ0Ye-84" vertex="1">
           <mxGeometry x="75" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-88" value="Assumptions:&amp;nbsp;&lt;br&gt;1. An EMPLOYEE can manages multiple departments, and an DEPARTMENT must be managed by an EMPLOYEE.&lt;br&gt;2. All projectes must be worked on by some ENPLOYEEs, and each EMPLOYEE can work on multiple projects.&lt;br&gt;3. Not all EMPLOYEEs are supervised by someone, for example, a supervisor is supervised by nobody. &lt;br&gt;&amp;nbsp; &amp;nbsp; But a supervised EMPLOYEEs is supervised by only one person at a time.&lt;br&gt;4. A project must belong to a department. A department can have multiple projects." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="295" y="505" width="640" height="90" as="geometry" />
+        <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-88" value="Assumptions:&amp;nbsp;&lt;br&gt;1. An EMPLOYEE can manages multiple departments, and an DEPARTMENT must be managed by an EMPLOYEE.&lt;br&gt;2. All projectes must be worked on by some ENPLOYEEs, and all EMPLOYEE must work on at least a projects.&lt;br&gt;3. Not all EMPLOYEEs are supervised by someone, for example, a supervisor is supervised by nobody. &lt;br&gt;&amp;nbsp; &amp;nbsp; But a supervised EMPLOYEEs is supervised by only one person at a time. A supervisor can supervise multiple employees.&lt;br&gt;4. A project must belong to a department. A department can have multiple projects." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="295" y="505" width="680" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qVKmlcQLdKTgwYBnQ0Ye-97" value="LOCATES_AT" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="495" width="120" height="40" as="geometry" />
